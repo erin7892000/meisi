@@ -1,11 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Hollywood sign icon">
   <defs>
-    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#0f6d62"/>
-      <stop offset="100%" stop-color="#d0a96a"/>
+    <linearGradient id="sky" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#3387d6"/>
+      <stop offset="100%" stop-color="#1e5fa7"/>
     </linearGradient>
+    <linearGradient id="hill" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b6a43"/>
+      <stop offset="58%" stop-color="#6d4f31"/>
+      <stop offset="100%" stop-color="#3d2a1c"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a321f"/>
+      <stop offset="100%" stop-color="#24160f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="4" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
   </defs>
-  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
-  <path d="M38 164c20-30 44-46 71-46 18 0 32 5 43 13 13-28 34-49 66-59-12 17-22 36-26 55 12 5 22 12 32 23-22-7-39-9-53-7-9 20-12 41-10 63-11-15-20-28-27-39-9 10-20 20-34 31-18-15-39-27-62-34z" fill="#fff8ed"/>
-  <circle cx="175" cy="71" r="18" fill="#fff0c7"/>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <path d="M0 326C54 294 100 276 160 250C220 225 267 205 318 189C375 171 431 163 512 167V512H0Z" fill="url(#hill)"/>
+  <path d="M0 378C45 343 92 324 151 304C220 280 286 261 346 243C395 228 446 220 512 223V512H0Z" fill="#5e452d" opacity="0.72"/>
+  <path d="M55 358C74 340 94 331 124 324C109 347 91 361 62 374Z" fill="url(#rock)" opacity="0.82"/>
+  <path d="M113 336C134 320 162 312 187 308C176 330 160 346 131 357Z" fill="url(#rock)" opacity="0.78"/>
+  <path d="M168 323C184 307 215 298 246 294C238 317 224 333 193 343Z" fill="url(#rock)" opacity="0.76"/>
+  <path d="M226 310C249 294 280 286 313 281C304 304 288 321 258 332Z" fill="url(#rock)" opacity="0.74"/>
+  <path d="M290 293C318 279 351 272 385 269C374 291 357 307 326 318Z" fill="url(#rock)" opacity="0.72"/>
+  <path d="M357 281C383 269 417 263 452 261C440 282 422 298 392 308Z" fill="url(#rock)" opacity="0.72"/>
+
+  <g filter="url(#shadow)">
+    <text x="256" y="230" text-anchor="middle"
+          font-family="Arial Black, Helvetica, Arial, sans-serif"
+          font-size="92" font-weight="900" letter-spacing="3"
+          fill="#ffffff" stroke="#f8f8f8" stroke-width="3"
+          paint-order="stroke fill">HOLLYWOOD</text>
+  </g>
+
+  <rect x="82" y="200" width="350" height="10" rx="5" fill="#f4ead9" opacity="0.75"/>
+  <rect x="80" y="203" width="8" height="70" rx="4" fill="#f4ead9" opacity="0.95"/>
+  <rect x="130" y="195" width="8" height="78" rx="4" fill="#f4ead9" opacity="0.95"/>
+  <rect x="180" y="188" width="8" height="86" rx="4" fill="#f4ead9" opacity="0.95"/>
+  <rect x="232" y="184" width="8" height="90" rx="4" fill="#f4ead9" opacity="0.95"/>
+  <rect x="286" y="186" width="8" height="88" rx="4" fill="#f4ead9" opacity="0.95"/>
+  <rect x="338" y="192" width="8" height="82" rx="4" fill="#f4ead9" opacity="0.95"/>
+  <rect x="392" y="198" width="8" height="76" rx="4" fill="#f4ead9" opacity="0.95"/>
+
+  <circle cx="430" cy="160" r="11" fill="#e8eef6" opacity="0.95"/>
+  <circle cx="446" cy="153" r="5" fill="#d4dee9" opacity="0.9"/>
 </svg>
