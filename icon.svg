@@ -30,10 +30,10 @@
   <path d="M357 281C383 269 417 263 452 261C440 282 422 298 392 308Z" fill="url(#rock)" opacity="0.72"/>
 
   <g filter="url(#shadow)">
-    <text x="256" y="230" text-anchor="middle"
+    <text x="256" y="228" text-anchor="middle"
           font-family="Arial Black, Helvetica, Arial, sans-serif"
-          font-size="92" font-weight="900" letter-spacing="3"
-          fill="#ffffff" stroke="#f8f8f8" stroke-width="3"
+          font-size="76" font-weight="900" letter-spacing="1.5"
+          fill="#ffffff" stroke="#f8f8f8" stroke-width="2.5"
           paint-order="stroke fill">HOLLYWOOD</text>
   </g>
 
