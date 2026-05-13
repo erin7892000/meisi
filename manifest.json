@@ -1,0 +1,17 @@
+{
+  "name": "2026 美西 10 天 9 夜",
+  "short_name": "美西行程",
+  "description": "舊金山進、洛杉磯出，含拉斯維加斯與亞利桑那州峽谷段的手機版行程頁。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f1e8",
+  "theme_color": "#0f6d62",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>2026 美西 10 天 9 夜</title>
+  <meta name="description" content="2026 美西 10 天 9 夜手機版行程頁，舊金山進、洛杉磯出，含拉斯維加斯、羚羊谷、馬蹄灣與大峽谷。">
+  <meta name="theme-color" content="#0f6d62">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="美西行程">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="2026 美西 10 天 9 夜">
+  <meta property="og:description" content="舊金山進、洛杉磯出，含拉斯維加斯與亞利桑那州峽谷段的手機版行程頁。">
+  <meta property="og:locale" content="zh_TW">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero" id="top">
+      <p class="eyebrow">2026 West Coast Trip</p>
+      <h1>美西 10 天 9 夜</h1>
+      <p class="hero-route">舊金山進 → 拉斯維加斯 → 亞利桑那峽谷 → 洛杉磯出</p>
+      <div class="hero-meta">
+        <span>9/18 - 9/27</span>
+        <span>10 Days</span>
+        <span>SFO in / LAX out</span>
+      </div>
+      <div class="hero-actions">
+        <button class="primary-action" data-scroll-target="today-card">看今日重點</button>
+        <button class="secondary-action" data-scroll-target="flights">看航班</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="summary-panel" id="summary">
+        <div class="panel-head">
+          <h2>旅程摘要</h2>
+          <button class="chip-button" data-scroll-target="days">展開每日行程</button>
+        </div>
+        <div class="summary-grid">
+          <article>
+            <p class="label">主軸</p>
+            <p>城市觀光、國內線轉移、公路自駕、國家公園與洛杉磯收尾。</p>
+          </article>
+          <article>
+            <p class="label">高優先預訂</p>
+            <p>羚羊谷導覽、拉斯維加斯租車與樂園門票，越早訂越好。</p>
+          </article>
+          <article>
+            <p class="label">節奏</p>
+            <p>前段城市、中段峽谷、後段 LA 輕鬆收尾，移動節奏相對平均。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="flights-panel" id="flights">
+        <div class="panel-head">
+          <h2>航班資訊</h2>
+          <button class="chip-button" data-toggle-target="flight-details">切換詳細</button>
+        </div>
+        <div class="flight-cards">
+          <article class="flight-card">
+            <p class="flight-tag">去程</p>
+            <h3>CI0004</h3>
+            <p>9/18 抵達舊金山 SFO</p>
+            <p class="flight-note">抵達後安排機場接駁前往飯店。</p>
+          </article>
+          <article class="flight-card">
+            <p class="flight-tag">回程</p>
+            <h3>CI0007</h3>
+            <p>9/27 自洛杉磯 LAX 返台</p>
+            <p class="flight-note">建議提早 3-4 小時抵達，先完成還車。</p>
+          </article>
+        </div>
+        <div class="drawer hidden" id="flight-details">
+          <p>目前先放公開版資訊。若之後要加入完整電子機票內容，建議另外做私密頁面，不要把訂位代號與個資直接公開。</p>
+        </div>
+      </section>
+
+      <section class="days-panel" id="days">
+        <div class="panel-head">
+          <h2>每日行程</h2>
+          <div class="segmented">
+            <button class="segment is-active" data-filter="all">全部</button>
+            <button class="segment" data-filter="city">城市</button>
+            <button class="segment" data-filter="nature">峽谷</button>
+            <button class="segment" data-filter="theme">樂園</button>
+          </div>
+        </div>
+
+        <div class="day-list">
+          <article class="day-card" id="today-card" data-category="city">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/18 Fri</p>
+                <h3>抵達舊金山</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-1-detail">查看</button>
+            </div>
+            <p class="day-highlight">搭乘 CI0004 抵達 SFO，安排機場接駁前往飯店。</p>
+            <div class="drawer hidden" id="day-1-detail">
+              <p>第一天建議不要排太滿，優先完成入境、換網路、交通接駁與休息。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="San Francisco International Airport">機場地圖</button>
+                <button class="mini-action" data-scroll-target="flights">回看航班</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="city">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/19 Sat</p>
+                <h3>舊金山市區</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-2-detail">查看</button>
+            </div>
+            <p class="day-highlight">Powell-Hyde 叮叮車、漁人碼頭、海獅。</p>
+            <div class="drawer hidden" id="day-2-detail">
+              <p>適合安排纜車、碼頭與晚餐同區行動，減少跨區折返。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Powell-Hyde Cable Car">纜車地圖</button>
+                <button class="mini-action" data-map-query="Fisherman's Wharf San Francisco">漁人碼頭</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="city">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/20 Sun</p>
+                <h3>飛往拉斯維加斯</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-3-detail">查看</button>
+            </div>
+            <p class="day-highlight">建議改搭國內線前往 Las Vegas，省下長途車程。</p>
+            <div class="drawer hidden" id="day-3-detail">
+              <p>這天的重點是把體力留給後段峽谷行程，國內線通常比長途自駕更有效率。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Harry Reid International Airport">Vegas 機場</button>
+                <button class="mini-action" data-copy-text="SFO to Las Vegas flight">複製航段</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="nature">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/21 Mon</p>
+                <h3>羚羊谷 & 馬蹄灣</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-4-detail">查看</button>
+            </div>
+            <p class="day-highlight">Vegas 租車開往 Page，羚羊谷需提早 4-6 個月預訂。</p>
+            <div class="drawer hidden" id="day-4-detail">
+              <p>建議先搶羚羊谷導覽，再安排出發時間與住宿，這一天是峽谷段錨點。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Antelope Canyon">羚羊谷地圖</button>
+                <button class="mini-action" data-map-query="Horseshoe Bend">馬蹄灣地圖</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="nature">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/22 Tue</p>
+                <h3>大峽谷國家公園</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-5-detail">查看</button>
+            </div>
+            <p class="day-highlight">參觀大峽谷南緣，建議評估年票是否划算。</p>
+            <div class="drawer hidden" id="day-5-detail">
+              <p>你目前備註裡有 2026 票價提醒。正式公開版上線前，建議再核對一次當年官方票價。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Grand Canyon South Rim">南緣地圖</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="city">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/23 Wed</p>
+                <h3>返回拉斯維加斯</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-6-detail">查看</button>
+            </div>
+            <p class="day-highlight">途經胡佛水壩，傍晚回 Vegas 看 The Sphere 或秀場。</p>
+            <div class="drawer hidden" id="day-6-detail">
+              <p>如果前一天已經走很多，這天晚上可以改排餐廳或輕鬆散步，留一點體力給 LA 段。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Hoover Dam">胡佛水壩</button>
+                <button class="mini-action" data-map-query="Sphere Las Vegas">The Sphere</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="city">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/24 Thu</p>
+                <h3>前往洛杉磯</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-7-detail">查看</button>
+            </div>
+            <p class="day-highlight">開車前往 LA，傍晚可去格里斐斯天文台。</p>
+            <div class="drawer hidden" id="day-7-detail">
+              <p>建議中午前出發，避開進入洛杉磯時的尖峰時段。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Griffith Observatory">天文台地圖</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="theme">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/25 Fri</p>
+                <h3>洛杉磯樂園</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-8-detail">查看</button>
+            </div>
+            <p class="day-highlight">好萊塢環球影城或加州迪士尼，擇一。</p>
+            <div class="drawer hidden" id="day-8-detail">
+              <p>正式版可再細分兩個方案，加入交通、票價與入園建議。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Universal Studios Hollywood">環球影城</button>
+                <button class="mini-action" data-map-query="Disneyland Park Anaheim">迪士尼</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="city">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/26 Sat</p>
+                <h3>洛杉磯地標 / 購物</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-9-detail">查看</button>
+            </div>
+            <p class="day-highlight">星光大道、比佛利山莊、聖莫尼卡海灘晚餐。</p>
+            <div class="drawer hidden" id="day-9-detail">
+              <p>建議分成上午地標、下午購物、傍晚海邊晚餐，動線會更順。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="Hollywood Walk of Fame">星光大道</button>
+                <button class="mini-action" data-map-query="Santa Monica Beach">聖莫尼卡</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="day-card" data-category="city">
+            <div class="day-top">
+              <div>
+                <p class="day-date">9/27 Sun</p>
+                <h3>搭機返台</h3>
+              </div>
+              <button class="expand-button" data-toggle-target="day-10-detail">查看</button>
+            </div>
+            <p class="day-highlight">提早抵達 LAX 還車，搭乘 CI0007 返國。</p>
+            <div class="drawer hidden" id="day-10-detail">
+              <p>建議再補還車地點、出境櫃台區域與最後採買提醒，之後可做成更完整的返程頁。</p>
+              <div class="action-row">
+                <button class="mini-action" data-map-query="LAX Rental Car Return">還車地圖</button>
+                <button class="mini-action" data-scroll-target="top">回到頁首</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="notes-panel" id="notes">
+        <div class="panel-head">
+          <h2>旅程提醒</h2>
+          <button class="chip-button" data-toggle-target="packing-notes">查看清單</button>
+        </div>
+        <div class="reminder-list">
+          <p>羚羊谷請先訂，這是整段峽谷行程最關鍵的預約項目。</p>
+          <p>Vegas、Page、大峽谷之間的車程要保留休息與補給時間。</p>
+          <p>LA 樂園日建議先決定是設施導向還是拍照購物導向。</p>
+        </div>
+        <div class="drawer hidden" id="packing-notes">
+          <p>之後可再補：飯店資訊、租車文件、保險資料、景點門票與隨身清單。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>公開分享版行程頁。若要加入機票、訂位代號或完整住宿資料，建議另做私密版本。</p>
+    </footer>
+
+    <nav class="bottom-nav" aria-label="主要導覽">
+      <button data-scroll-target="summary">總覽</button>
+      <button data-scroll-target="flights">航班</button>
+      <button data-scroll-target="days">行程</button>
+      <button data-scroll-target="notes">提醒</button>
+    </nav>
+  </div>
+
+  <div class="toast" id="toast" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
