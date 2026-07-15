@@ -394,6 +394,52 @@ button {
   margin-right: 0;
 }
 
+.schedule-list {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.schedule-list li {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  line-height: 1.55;
+}
+
+.schedule-list time {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: #e7f2ef;
+  color: var(--primary-strong);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.schedule-list span {
+  padding-top: 3px;
+}
+
+.schedule-list .schedule-warning {
+  padding: 9px;
+  border: 1px solid rgba(174, 104, 9, 0.18);
+  border-radius: 13px;
+  background: #fff3dc;
+  color: #75470b;
+}
+
+.schedule-list .schedule-warning time {
+  background: #d99330;
+  color: #fffaf1;
+}
+
 .mini-action {
   padding: 0 12px;
   min-height: 34px;
