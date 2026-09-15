@@ -30,7 +30,7 @@ const mealStayData = [
     breakfast: "此日尚未安排早餐。",
     lunch: "此日尚未安排午餐。",
     dinner: "此日尚未安排晚餐。",
-    stay: "MGM Grand Hotel，Las Vegas；9/20 入住、9/21 退房。",
+    stay: "MGM Hotel，Las Vegas；9/20 入住、9/21 退房。",
   },
   {
     breakfast: "此日尚未安排早餐。",
@@ -48,7 +48,7 @@ const mealStayData = [
     breakfast: "此日尚未安排早餐。",
     lunch: "此日尚未安排午餐。",
     dinner: "此日尚未安排晚餐。",
-    stay: "Las Vegas 住宿待定；候選為 Park MGM、Treasure Island 或 Polo Towers。",
+    stay: "神劍飯店（Excalibur Hotel），Las Vegas。",
   },
   {
     breakfast: "此日尚未安排早餐。",
@@ -65,7 +65,7 @@ const mealStayData = [
   {
     breakfast: "此日尚未安排早餐。",
     lunch: "此日尚未安排午餐。",
-    dinner: "此日尚未安排晚餐；晚上需前往 LAX 準備凌晨航班。",
+    dinner: "20:00 Enterprise 還車後前往 LAX，晚餐依機場報到時間彈性安排。",
     stay: "不住宿；9/27 00:05 起飛，9/26 晚間前往機場。",
   },
   {
