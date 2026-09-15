@@ -15,25 +15,25 @@ const mealStayLabels = {
 };
 const mealStayData = [
   {
-    breakfast: "此日尚未安排早餐。",
-    lunch: "此日尚未安排午餐。",
-    dinner: "此日尚未安排晚餐；20:00 抵達 SFO 後以入住休息為主。",
+    breakfast: "機上供餐。",
+    lunch: "機上供餐。",
+    dinner: "In-N-Out Burger。",
     stay: "Hotel Zephyr，San Francisco。",
   },
   {
-    breakfast: "此日尚未安排早餐。",
+    breakfast: "Eight AM Brunch。",
     lunch: "此日尚未安排午餐。",
     dinner: "16:00 Fog Harbor Fish House。",
     stay: "Hotel Zephyr，San Francisco。",
   },
   {
-    breakfast: "此日尚未安排早餐。",
+    breakfast: "前一天於超市購買。",
     lunch: "此日尚未安排午餐。",
-    dinner: "此日尚未安排晚餐。",
+    dinner: "速食店。",
     stay: "MGM Hotel，Las Vegas；9/20 入住、9/21 退房。",
   },
   {
-    breakfast: "此日尚未安排早餐。",
+    breakfast: "速食店。",
     lunch: "此日尚未安排午餐。",
     dinner: "此日尚未安排晚餐。",
     stay: "Holiday Inn Express & Suites Page – Lake Powell Area by IHG；9/21 入住。",
@@ -45,27 +45,27 @@ const mealStayData = [
     stay: "Holiday Inn Express & Suites Page – Lake Powell Area by IHG；續住一晚。",
   },
   {
-    breakfast: "此日尚未安排早餐。",
+    breakfast: "前一天於超市購買。",
     lunch: "此日尚未安排午餐。",
     dinner: "此日尚未安排晚餐。",
     stay: "神劍飯店（Excalibur Hotel），Las Vegas。",
   },
   {
-    breakfast: "此日尚未安排早餐。",
+    breakfast: "前一天於超市購買。",
     lunch: "此日尚未安排午餐。",
     dinner: "此日尚未安排晚餐。",
     stay: "DoubleTree by Hilton Hotel Pasadena。",
   },
   {
-    breakfast: "此日尚未安排早餐。",
-    lunch: "此日尚未安排午餐；可依 Disneyland 園區動線補上。",
-    dinner: "此日尚未安排晚餐。",
+    breakfast: "前一天於超市購買。",
+    lunch: "迪士尼園區用餐。",
+    dinner: "迪士尼園區用餐。",
     stay: "DoubleTree by Hilton Hotel Pasadena。",
   },
   {
     breakfast: "此日尚未安排早餐。",
     lunch: "此日尚未安排午餐。",
-    dinner: "20:00 Enterprise 還車後前往 LAX，晚餐依機場報到時間彈性安排。",
+    dinner: "此日尚未安排晚餐。",
     stay: "不住宿；9/27 00:05 起飛，9/26 晚間前往機場。",
   },
   {
